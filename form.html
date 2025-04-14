@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portabilidad a Claro</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        .container { max-width: 500px; margin: 50px auto; background-color: #fff; padding: 20px; border-radius: 8px; }
+        h1 { text-align: center; color: #e60000; }
+        label, input, select, button { width: 100%; margin-top: 15px; padding: 10px; border-radius: 5px; border: 1px solid #ddd; }
+        button { background-color: #e60000; color: #fff; font-weight: bold; cursor: pointer; margin-top: 20px; }
+        button:hover { background-color: #333; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Portabilidad a Claro</h1>
+        <form action="https://formsubmit.co/carlitosdulce27@gmail.com" method="POST">
+            <label for="nombres">Nombres y Apellidos:</label>
+            <input type="text" id="nombres" name="nombres" required>
+
+            <label for="dni">DNI:</label>
+            <input type="text" id="dni" name="dni" required>
+
+            <label for="numero">Número de Celular:</label>
+            <input type="text" id="numero" name="numero" required>
+
+            <label for="operador">Operador Actual:</label>
+            <select id="operador" name="operador" required>
+                <option value="" disabled selected>Selecciona tu operador</option>
+                <option value="Movistar">Movistar</option>
+                <option value="Entel">Entel</option>
+                <option value="Bitel">Bitel</option>
+                <option value="Otro">Otro</option>
+            </select>
+
+            <label for="plan">Plan Deseado:</label>
+            <input type="text" id="plan" name="plan" required>
+
+            <button type="submit">Enviar Solicitud</button>
+        </form>
+    </div>
+</body>
+</html>
